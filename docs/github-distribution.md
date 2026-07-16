@@ -6,16 +6,12 @@ PyPI.
 
 ## One-time repository setup
 
-Create an empty GitHub repository, then run these commands from this project.
-Replace `OWNER/REPOSITORY` with the GitHub repository path.
+The GitHub repository is [castri1/ghosty-agents](https://github.com/castri1/ghosty-agents).
+Clone it locally with:
 
 ```bash
-git init
-git add .
-git commit -m "Prepare GitHub distribution"
-git branch -M main
-git remote add origin https://github.com/OWNER/REPOSITORY.git
-git push -u origin main
+git clone https://github.com/castri1/ghosty-agents.git
+cd ghosty-agents
 ```
 
 The included GitHub Actions workflow builds the Python wheel and source archive,
@@ -44,13 +40,13 @@ install either a specific GitHub release artifact or directly from a tag.
 Install the release wheel (recommended):
 
 ```bash
-pipx install https://github.com/OWNER/REPOSITORY/releases/download/v0.1.0/ghosty_agents-0.1.0-py3-none-any.whl
+pipx install https://github.com/castri1/ghosty-agents/releases/download/v0.1.0/ghosty_agents-0.1.0-py3-none-any.whl
 ```
 
 Install directly from the source tag:
 
 ```bash
-pipx install "git+https://github.com/OWNER/REPOSITORY.git@v0.1.0"
+pipx install "git+https://github.com/castri1/ghosty-agents.git@v0.1.0"
 ```
 
 Then run:

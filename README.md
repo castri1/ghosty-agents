@@ -19,17 +19,17 @@ Requires Python 3.11+ and the [`gcloud` CLI](https://cloud.google.com/sdk/docs/i
 ### Install from GitHub
 
 For a released version, install the wheel from the GitHub Release with
-[`pipx`](https://pipx.pypa.io/). Replace `OWNER/REPOSITORY` and the version with
-the values shown on the release page:
+[`pipx`](https://pipx.pypa.io/). Replace only the version with the value shown
+on the [release page](https://github.com/castri1/ghosty-agents/releases):
 
 ```bash
-pipx install https://github.com/OWNER/REPOSITORY/releases/download/v0.1.0/ghosty_agents-0.1.0-py3-none-any.whl
+pipx install https://github.com/castri1/ghosty-agents/releases/download/v0.1.0/ghosty_agents-0.1.0-py3-none-any.whl
 ```
 
 Alternatively, install directly from a Git tag:
 
 ```bash
-pipx install "git+https://github.com/OWNER/REPOSITORY.git@v0.1.0"
+pipx install "git+https://github.com/castri1/ghosty-agents.git@v0.1.0"
 ```
 
 See [`docs/github-distribution.md`](docs/github-distribution.md) to publish a
