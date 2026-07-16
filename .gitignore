@@ -1,0 +1,27 @@
+# Local configuration with account/project identifiers — keep out of VCS.
+env.sh
+env.local.sh
+
+# Credentials / service-account keys
+*.json
+!**/package.json
+*-key.json
+*.pem
+*.key
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
